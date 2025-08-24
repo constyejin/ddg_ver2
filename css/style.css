@@ -163,7 +163,6 @@ div.back_img {
   display: flex;
   flex-direction: column;
   height: 100%;
-  border: 5px solid red;
 }
 
 .global_footer > div {
@@ -235,7 +234,6 @@ div.back_img {
   display: flex;
   flex-direction: column;
   height: 16em;
-  border: 2px solid red;
   background-color: #060022;
 }
 
