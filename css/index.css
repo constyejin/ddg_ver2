@@ -129,19 +129,15 @@ video {
 .main_contents {
   width: 100%;
   position: absolute;
-  bottom: 0%;
+  top: 50%;
   left: 0;
-  padding: 0 0 0 4%;
-  display: flex;
+  transform: translateY(-50%);
+  /* display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
-.main_title {
-  height: 36vh;
-  padding-bottom: 3%;
-}
 .main_title h1{
   font-family: 'Segoe Black Italic';
   font-size: 3.3em;
@@ -450,6 +446,7 @@ video {
 }
 @media screen and (min-width: 768px) {
   .fp-wrap { padding: 0 2em; }
+  
   .pc #main::after, .tb #main::after { 
     position: absolute;
     top: 0;
@@ -459,6 +456,7 @@ video {
     content: "";
     background: url(../assets/images/main_gradient.png) no-repeat top center / cover;
   }
+
   .mission_title { margin: 8% 2em 3em;}
   .mo_slide { width: calc(100vw - 8em);}
   /* ·········· section3 : we are ·········· */
@@ -487,22 +485,22 @@ video {
     width: 100%;
     color: #fff;
   }
+
   .fp-wrap { padding: 0; }
+
   .main_contents {
     width: 100%;
     position: absolute;
-    bottom: 0%;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
     padding: 0 0 0 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
   }
-  .main_title {
-    height: 46vh;
-    padding-bottom: 3%;
-  }
+
   .main_title h1 {
     font-size: 6em;
     letter-spacing: -0.9px;
