@@ -473,7 +473,7 @@ video {
   .pc_mission_slider {
     height: 48vh; 
     margin-top: 2em;
-    transform: translateX(-6%);
+    /* transform: translateX(-6%); */
   }
   .test_slide {width: 20%;}
   .test_slide.active {width: 41%;}
