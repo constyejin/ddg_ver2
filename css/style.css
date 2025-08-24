@@ -162,7 +162,7 @@ div.back_img {
 .global_footer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   border: 5px solid red;
 }
 
