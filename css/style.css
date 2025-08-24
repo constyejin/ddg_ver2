@@ -163,6 +163,7 @@ div.back_img {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  border: 5px solid red;
 }
 
 .global_footer > div {
@@ -233,7 +234,7 @@ div.back_img {
 .our_partners {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  border: 2px solid red;
   background-color: #060022;
 }
 
@@ -244,8 +245,8 @@ div.back_img {
 }
 
 .partner_wrap {
-  flex: 1;
   width: 100%;
+  flex: 1;
   border-bottom: 1px solid rgba(174, 200, 237, .2);
   overflow: hidden;
 }
@@ -395,8 +396,6 @@ div.back_img {
     border: 1px solid var(--txt-primary);
   }
 
-
-
   .contact_list {
     flex-direction: column;
     gap: 20px;
@@ -405,6 +404,7 @@ div.back_img {
   .global_footer .contact {
     padding: 0 40px;
   }
+
   /* ·········· OUR PARTNERS ·········· */
   .our_partners {
     height: 140px;
