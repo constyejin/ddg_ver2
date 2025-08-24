@@ -127,16 +127,17 @@ video {
 }
 
 .main_contents {
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    left: 0;
-    padding: 0 0 0 4%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  padding: 0 0 0 4%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
+
 .main_title {
   height: 36vh;
   padding-bottom: 3%;
