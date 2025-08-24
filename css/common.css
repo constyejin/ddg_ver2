@@ -67,6 +67,7 @@ ol,ul {list-style-type: none;}
   transition: right 0.3s; z-index: 11;
   border: 2px solid blue;
 }
+
 .ddg_my_util.active {right: 0;}
 
 .ddg_my_util #ddg_my_gnb {
@@ -94,7 +95,7 @@ ol,ul {list-style-type: none;}
 .ddg_my_util #ddg_my_gnb .depth1 > a {
   display: block; 
   /* margin :0.4em 2em; */
-  margin : 3% auto ; 
+  margin : 2% auto ; 
   line-height: 1.6em; 
   font-size: 2.6em;  
   font-weight: 700;
@@ -133,7 +134,7 @@ body > .skiptranslate, .goog-te-gadget-simple {
 .selected-option {display: none;}
 .lang-buttons {
   position: absolute;
-  bottom: 10%;
+  bottom: 18%;
   left: 50%;
   transform: translateX(-50%);
   height: 3em;
@@ -231,7 +232,7 @@ body > .skiptranslate, .goog-te-gadget-simple {
 }
 
 .gnb_banner {
-  bottom: 23%;
+  bottom: 30%;
   right: 50%;
   transform: translateX(50%);
   width: 70%;
