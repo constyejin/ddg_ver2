@@ -166,8 +166,9 @@ body > .skiptranslate, .goog-te-gadget-simple {
 /* 햄버거 메뉴 */
 #ddg_my_header .m_gnb_btn { 
   position: absolute; 
-  top: 1.7em; 
+  top: 50%; 
   right: 1.6em;  
+  transform: translateY(-50%);
   width: 2em; 
   height: 2em;  
   color: #fff; 
