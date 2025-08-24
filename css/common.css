@@ -242,11 +242,10 @@ body > .skiptranslate, .goog-te-gadget-simple {
 
 @media screen and (min-width: 768px) {
   body {font-size: 0.72em;}
+
   #ddg_my_header .m_gnb_btn { 
-    top: 1.4em; 
-    right: 1.4em;  
-    width: 3em; 
-    height: 3em;  
+    width: 2.4em; 
+    height: 2.4em;  
   }
 }
 

@@ -132,10 +132,7 @@ video {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  /* display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column; */
+  padding: 0 3em;
 }
 
 .main_title h1{
