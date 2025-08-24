@@ -227,7 +227,7 @@ video {
 }
 .mission_title p {
   color: #B0C1FF; 
-  font-size: 1.6em; 
+  font-size: 1.2em; 
   font-weight: 400; 
   margin-top: 0.6em;
   line-height: 1.5;
@@ -428,7 +428,7 @@ video {
   background: url(../assets/images/we_are/we_are_title_mo.png) no-repeat center / contain;
 }
 .we_are_desc {
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 400;
   text-align: center;
   color:#B0C1FF;
