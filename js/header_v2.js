@@ -46,7 +46,7 @@ $(function() {
         // GNB가 열릴 때만 모바일용 배너 이미지 적용
         if (careerPage.length === 0) {
             if (isGnbOpen) {
-                bannerImg.attr('src', "./assets/images/header/gnb_career_banner.png");
+                bannerImg.attr('src', "./assets/images/header/join_us.png");
                 careerBanner.addClass("gnb_banner");
             } else {
                 bannerImg.attr('src', "./assets/images/header/career_banner.png");
