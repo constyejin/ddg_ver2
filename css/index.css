@@ -275,15 +275,16 @@ video {
   color: #FFF;
   text-align: center;
   font-family: "Segoe UI";
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-style: normal;
   font-weight: 600;
   line-height: normal; 
 }
+
 .after_txt {
   visibility: hidden; 
   opacity: 0; 
-  text-align: left;
+  /* text-align: left; */
 } 
 .after_txt h2 {
   font-size: 2.2em; 
@@ -298,11 +299,12 @@ video {
   width: 7.6em; 
   margin-bottom: 1.4em;
 }
+
 .mission_list {
   text-align: left; 
   color: #B0C1FF; 
   list-style-type: disc;
-  /* margin-left: -1.6em;  */
+  padding-left: 1em;
   font-size: 1.58em; 
   letter-spacing: -0.3px;
 }
@@ -478,6 +480,7 @@ video {
   }
   .test_slide {width: 20%;}
   .test_slide.active {width: 41%;}
+
   .mission_list {
     font-size: 1em;
     font-style: normal;
@@ -536,6 +539,10 @@ video {
   .pc_mission_slider { margin-top: 6em;}
   .test_slide {width: 18.8%;}
   .test_slide.active {width: 37.5%;}
+
+  .mission_list {
+    margin-left: 2em;
+  }
 }
 
 @media screen and (min-width: 3000px) {
