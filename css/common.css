@@ -59,23 +59,33 @@ ol,ul {list-style-type: none;}
   position: fixed; 
   top: 0; 
   right: -100%; 
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%; 
   height: 100vh; 
-  background: #000 ; 
+  background: #000 ;
   transition: right 0.3s; z-index: 11;
+  border: 2px solid blue;
 }
 .ddg_my_util.active {right: 0;}
-.ddg_my_util #ddg_my_gnb {padding-top: 13em; }
+
+.ddg_my_util #ddg_my_gnb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 6em; 
+  border: 2px solid red;
+}
+
 .ddg_my_util #ddg_my_gnb::before {
   content: ""; 
-  position: absolute; 
+  /* position: absolute; 
+  top: 3em; 
+  left: 50%;  */
   display: block;
-  top: 5em; 
-  left: 50%; 
   width: 8em;
   height: 8em;
-  transform: translate(-50%,0); 
+  margin: 0 auto;
   background: url(../assets/images/logo_mo.png) no-repeat center / contain;
 }
 
@@ -84,9 +94,9 @@ ol,ul {list-style-type: none;}
 .ddg_my_util #ddg_my_gnb .depth1 > a {
   display: block; 
   /* margin :0.4em 2em; */
-  margin :3% auto ; 
-  line-height: 2em; 
-  font-size: 2.9em;  
+  margin : 3% auto ; 
+  line-height: 1.6em; 
+  font-size: 2.6em;  
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7); 
   text-align: center;
@@ -123,7 +133,7 @@ body > .skiptranslate, .goog-te-gadget-simple {
 .selected-option {display: none;}
 .lang-buttons {
   position: absolute;
-  top: 92%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   /* height: 3em; */
@@ -216,8 +226,9 @@ body > .skiptranslate, .goog-te-gadget-simple {
   transition: all 0.3s ease-in ;
   transition: width 0.1s ease-in ;
 }
+
 .gnb_banner {
-  bottom: 20%; 
+  bottom: 23%; 
   width: 70%;
   right: 50%;
   transform: translateX(50%);
@@ -300,6 +311,7 @@ body > .skiptranslate, .goog-te-gadget-simple {
   #ddg_my_header .m_gnb_btn {
     display: none;
   }
+
   .lang-buttons {
     position: relative; 
     top: auto; 
@@ -315,6 +327,7 @@ body > .skiptranslate, .goog-te-gadget-simple {
     justify-content: center;
     transform: translate(0);
   }
+
   .lang-buttons button { 
     position: relative;
     width: 3em;
