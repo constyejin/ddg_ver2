@@ -362,11 +362,11 @@ video {
   background-position: center;
 
 }
-.mo_slide2 {background: url(../assets/images/mission/mo_bg_2.png)}
-.mo_slide3 {background: url(../assets/images/mission/mo_bg_3.png)}
-.mo_slide4 {background: url(../assets/images/mission/mo_bg_4.png)}
-.mo_slide5 {background: url(../assets/images/mission/mo_bg_5.png)}
-.mo_slide6 {background: url(../assets/images/mission/mo_bg_6.png)}
+.mo_slide2 {background-image: url('../assets/images/mission/mo_bg_2.png')}
+.mo_slide3 {background-image: url('../assets/images/mission/mo_bg_3.png')}
+.mo_slide4 {background-image: url('../assets/images/mission/mo_bg_4.png')}
+.mo_slide5 {background-image: url('../assets/images/mission/mo_bg_5.png')}
+.mo_slide6 {background-image: url('../assets/images/mission/mo_bg_6.png')}
 
 .mo_text_box h3{ 
   font-size: 2.9em;
