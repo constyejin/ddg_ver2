@@ -177,16 +177,17 @@ body > .skiptranslate, .goog-te-gadget-simple {
 }
 
 /* Footer */
-footer {background: #060022;}
 .copyright {
   display: flex; 
   justify-content: center; 
   align-items: center;
-  height: 8em;
+  width: 100%;
+  height: 6em;
+  min-height: 68px;
   font-size: 1em;
   text-align: center;
-  color: #fff;
-  opacity: .6;
+  color: rgba(255, 255, 255, 0.60);
+  background: #060022;
 }
 
 /* top 버튼 */

@@ -233,7 +233,7 @@ div.back_img {
 .our_partners {
   display: flex;
   flex-direction: column;
-  height: 360px;
+  height: 200px;
   background-color: #060022;
 }
 
@@ -306,7 +306,7 @@ div.back_img {
 
   /* ·········· OUR PARTNERS ·········· */
   .our_partners {
-    height: 300px;
+    height: 160px;
   }
 
   .partner_list {
@@ -334,11 +334,6 @@ div.back_img {
   .hiring_item:nth-child(12) { grid-column: span 3; }
 
   .hiring_item:nth-child(13) { grid-column: span 7; }
-
-  /* ·········· OUR PARTNERS ·········· */
-  .our_partners {
-    height: 280px;
-  }
 }
 
 
@@ -412,7 +407,7 @@ div.back_img {
   }
   /* ·········· OUR PARTNERS ·········· */
   .our_partners {
-    height: 200px;
+    height: 140px;
   }
 
   .partner_list {
