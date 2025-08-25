@@ -293,6 +293,28 @@ div.back_img {
     flex: none;
   }
 
+
+  .ddg_value_item {
+    flex-direction: column; 
+    align-items: center;    
+    gap: 48px;              
+  }
+
+  .culture_list { order: 1; }
+  .ddg_value_txt {
+    order: 2;
+    top: 0;                
+    margin-top: 0;
+  }
+
+  /* 리스트 폭/배경 표시 안정화 */
+  .culture_list {
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-size: contain;
+  }
+
   /* ·········· HIRING ·········· */
   .hiring_content {
     width: 100%;

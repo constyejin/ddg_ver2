@@ -475,6 +475,7 @@ video {
     margin-top: 2em;
     /* transform: translateX(-6%); */
   }
+  
   .test_slide {width: 20%;}
   .test_slide.active {width: 41%;}
 
